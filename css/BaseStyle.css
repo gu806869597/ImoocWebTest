@@ -1,0 +1,28 @@
+:root{
+    --actionBarSize : 80px ;
+    --match_parent : 100% ;
+    --toolbarColor : #f6f6f6;
+    --screenItemSize : 800px;
+    --defaultColorPrimary: #f1f1f1 ;
+    --textColorPrimary : #4d555d ;
+    --textsecondColorPrimary : #07111b;
+    --highTitleColor : #f01414;
+}
+
+@font-face {
+    font-family: MicrosoftYaHeiUILight;
+    src:url('../font/MicrosoftYaHeiUILight.ttf');
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: MicrosoftYaHeiUILight;
+}
+
+.screenItems{
+    width:var(--match_parent);
+    height:var(--screenItemSize);
+}

@@ -1,0 +1,35 @@
+.screenItemSix{
+    width:var(--match_parent);
+    height: 320px;
+    background: url("../img/item_6_bg.png");
+    position: relative;
+}
+
+.screenItemSix__btn{
+    width:240px;
+    height:80px;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    background: var(--highTitleColor);
+    color: var(--defaultColorPrimary);
+    font-size: 24px;
+    border-radius: 2px;
+    position: absolute;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+footer{
+    width: var(--match_parent);
+    height:80px;
+    background: var(--textsecondColorPrimary);
+    text-align: center;
+}
+footer>a{
+    line-height: 80px;
+    top:50%;
+    text-decoration: none;
+    color: var(--defaultColorPrimary);
+}

@@ -1,0 +1,61 @@
+.screenItemThree{
+    position: relative;
+    background: url("../img/item_3_bg.png");
+    z-index: 3;
+}
+
+.screenItemThree>dl{
+    position: absolute;
+    top:96px;
+    left:371px;
+    text-align: left;
+}
+
+.screenItemThree>dl>dd{
+    color: var(--defaultColorPrimary);
+    font-size: 48px;
+}
+.screenItemThree>dl>dt{
+    color: var(--defaultColorPrimary);
+    font-size: 16px;
+    margin-top: 36px;
+}
+
+.screenItemThreeContent{
+    width:140px;
+    height:120px;
+    border:1px solid #f6f6f6;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    top:397px;
+    left:371px;
+
+}
+.screenItemThreeContent_num{
+    margin-top: 12px;
+    font-size:48px;
+    color: #f5f5f5;
+}
+.screenItemThreeContent_text{
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.screenItemThreeContent_two{
+    margin-left: 164px;
+}
+
+.screenItemThreeContent_three{
+    margin-top:144px;
+}
+
+.screenItemThreeImgLayout{
+  width:729px;
+  height:900px;
+  position: absolute;
+  bottom:-301px;
+  right:100px;
+  z-index: 4;
+  background: url("../img/item_3_phone.png") no-repeat right;
+}

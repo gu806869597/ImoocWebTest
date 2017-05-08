@@ -1,0 +1,53 @@
+.screenItemFive{
+    position:relative;
+    background: url("../img/item_1_bg.png");
+}
+
+.screenItemFive>dl{
+    width: 100%;
+    position: absolute;
+    top:135px;
+    text-align: center;
+}
+
+.screenItemFive>dl>dd{
+    font-size: 48px;
+    color:var(--highTitleColor);
+}
+
+.screenItemFive>dl>dt{
+    margin-top:39px;
+    color: var(--textsecondColorPrimary);
+    font-size: 16px;
+}
+
+.screenItemFiveLeftImg{
+  width: 426px;
+  height: 452px;
+  position:absolute;
+  bottom: -107px ;
+  left: 0 ;
+  background: url("../img/item_5_left.png") no-repeat left;
+  background-size: cover;
+}
+
+.screenItemFiveRightImg{
+  width: 426px;
+  height: 452px;
+  position: absolute;
+  bottom: -107px ;
+  right: 0 ;
+  background:url("../img/item_5_right.png") no-repeat right ;
+  background-size: cover;
+}
+
+.screenItemFiveCenterImg{
+  width: 940px;
+  height: 483px ;
+  position: absolute;
+  bottom: -52px ;
+  left: 50% ;
+  margin-left: -470px ;
+  background: url("../img/item_5_center.png") no-repeat center ;
+  background-size: cover ;
+}

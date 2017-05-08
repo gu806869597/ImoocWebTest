@@ -1,0 +1,63 @@
+header{
+    width:var(--match_parent);
+    height:var(--actionBarSize);
+    background: var(--toolbarColor);
+}
+
+header>div{
+    width:1022px;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+header>div>a{
+    width:150px;
+    height:100%;
+    color: var(--textsecondColorPrimary);
+    text-indent: 50px;  /**首行缩进**/
+    background: url("../img/logo.png") left center no-repeat;
+    background-size: 40px 40px;
+    position: absolute;
+    line-height: var(--actionBarSize);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header>div>nav{
+    height:100%;
+    position: absolute;
+    right:137px;
+}
+
+header>div>nav>a{
+    height:100%;
+    line-height: var(--actionBarSize);
+    text-decoration: none;
+    color: var(--textsecondColorPrimary);
+    margin-left: 47px;
+    font-size:14px;
+    text-align: center;
+}
+
+header>div>div{
+    background: #07111b;
+    border-radius: 2px;
+    position: absolute;
+    right:0;
+    width: 90px;
+    height:47px;
+    transform: translateY(-50%);
+    top:50%;
+    color: var(--defaultColorPrimary);
+    font-size:14px;
+    text-align: center;
+    line-height:47px;
+    cursor: pointer;
+}
+
+.nav_active{
+    color: var(--highTitleColor);
+    border-bottom: 2px solid var(--highTitleColor);
+}
