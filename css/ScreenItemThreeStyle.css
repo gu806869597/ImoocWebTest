@@ -33,7 +33,7 @@
 
 }
 .screenItemThreeContent_num{
-    margin-top: 12px;
+    margin-top: 16px;
     font-size:48px;
     color: #f5f5f5;
 }
@@ -55,7 +55,7 @@
   height:900px;
   position: absolute;
   bottom:-301px;
-  right:349px;
+  right:130px;
   z-index: 4;
   background: url("../img/item_3_phone.png") no-repeat right;
 }

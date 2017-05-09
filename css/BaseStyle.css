@@ -9,17 +9,12 @@
     --highTitleColor : #f01414;
 }
 
-@font-face {
-    font-family: MicrosoftYaHeiUILight;
-    src:url('../font/MicrosoftYaHeiUILight.ttf');
-}
-
 *{
     padding:0;
     margin:0;
 }
 body{
-    font-family: MicrosoftYaHeiUILight;
+    font-family: "Microsoft Ya Hei";
 }
 
 .screenItems{

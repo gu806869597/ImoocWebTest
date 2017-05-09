@@ -21,6 +21,10 @@
     cursor: pointer;
 }
 
+.screenItemSix__btn:hover{
+  box-shadow: 0 0 10px #181818 ;
+}
+
 footer{
     width: var(--match_parent);
     height:80px;

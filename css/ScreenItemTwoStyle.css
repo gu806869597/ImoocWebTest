@@ -24,11 +24,48 @@
 .screenItemTwoPicture{
     width:928px;
     height:873px;
-    position: absolute;
+    display: block;
     left:50%;
     margin-left: -464px;
     bottom:-345px;
     z-index: 2;
     background: url("../img/item_2_phone.png") no-repeat center;
-  
+    position:relative;
+}
+.screenItemTwoLeftPointer{
+  width: 215px;
+  height: auto;
+  background: url("../img/pointer_right.png") no-repeat right;
+  color: #4d555d;
+  font-size: 24px ;
+  position:absolute;
+  text-decoration: none;
+  top: 157px ;
+  left: -179px ;
+}
+
+.screenItemTwoRightPointetTop{
+  width: 215px;
+  height: auto ;
+  background: url("../img/pointer_left.png") no-repeat left ;
+  color: #4d555a ;
+  font-size: 24px ;
+  position: absolute;
+  text-decoration: none;
+  top: 38px ;
+  right: 141px ;
+  text-align: right;
+}
+
+.screenItemTwoRightPointetBottom{
+  width: 215px;
+  height: auto ;
+  background: url("../img/pointer_left.png") no-repeat left ;
+  color: #4d555a ;
+  font-size: 24px ;
+  position: absolute;
+  text-decoration: none;
+  top: 342px ;
+  right: 38px ;
+  text-align: right;
 }

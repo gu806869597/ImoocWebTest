@@ -11,6 +11,7 @@
     <link type="text/css" href="css/ScreenItemFourStyle.css" rel="stylesheet"/>
     <link type="text/css" href="css/ScreenItemFiveStyle.css" rel="stylesheet"/>
     <link type="text/css" href="css/FooterStyle.css" rel="stylesheet"/>
+    <link type="text/css" href="css/BaseAnimation.css" rel="stylesheet" />
 
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
     <script src="js/index.js"></script>
@@ -18,7 +19,7 @@
 <body>
 <header>
     <div>
-        <a href="#">慕课手机</a>
+        <a href="index.html">慕课手机</a>
         <nav>
             <a href="#" class="nav_active">
                 外观
@@ -36,7 +37,7 @@
                 其他产品
             </a>
         </nav>
-        <div>
+        <div id="toolbarBtn">
             立即购买
         </div>
     </div>
@@ -44,7 +45,7 @@
 
 <!-- 第一屏  -->
 <section class="screenItems screenItemOne" id="screen_item_one">
-    <dl>
+    <dl class="one_title animation item_one_title_init" id= "screen_item_one_title">
         <dd>
             慕课手机
         </dd>
@@ -53,13 +54,13 @@
         </dt>
     </dl>
     <!--图片内容-->
-    <div class="one_phone"></div>
-    <div class="one_shadow"></div>
+    <div class="one_phone animation item_one_phone_init" id="screen_item_one_phone"></div>
+    <div class="one_shadow animation item_one item_one_shadow_init" id="screen_item_one_shadow"></div>
 </section>
 
 <!-- 第二屏  -->
 <section class="screenItems screenItemTwo" id="screen_item_two">
-    <dl>
+    <dl class="animation item_two_title_init" id="screen_item_two_title">
         <dd>
             优美的设计，更令人着迷
         </dd>
@@ -69,7 +70,11 @@
         </dt>
     </dl>
 
-    <div class="screenItemTwoPicture" />
+    <div class="screenItemTwoPicture animation item_two_phone_init" id="screen_item_two_phone" >
+        <a href="javascript:void(0)" class="screenItemTwoLeftPointer">高清摄像</a>
+        <a href="javascript:void(0)" class="screenItemTwoRightPointetTop">超薄机身</a>
+        <a href="javascript:void(0)" class="screenItemTwoRightPointetBottom">大屏显示</a>
+    </div>
 </section>
 
 <!-- 第三屏  -->
@@ -82,7 +87,7 @@
         </dt>
     </dl>
 
-    <div class="screenItemThreeContent">
+    <div class="screenItemThreeContent animation">
         <dl>
             <dd class="screenItemThreeContent_num">
                 5.7

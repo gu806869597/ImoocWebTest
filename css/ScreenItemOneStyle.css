@@ -2,19 +2,19 @@
     position: relative;
     background: url("../img/item_1_bg.png");
 }
-.screenItemOne>dl{
+.one_title{
     width:var(--match_parent);
     position: absolute;
     top:155px;
     text-align: center;
 }
 
-.screenItemOne>dl>dd{
+.one_title>dd{
     color: var(--highTitleColor);
     font-size:48px;
     display: inline;
 }
-.screenItemOne>dl>dt{
+.one_title>dt{
     color: var(--textColorPrimary);
     font-size:48px;
     display: inline;
