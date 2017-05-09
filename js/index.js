@@ -19,6 +19,7 @@ $('window').ready(function(){
     var flag = $("#screen_item_three").hasClass("done");
     setScreenThreeAnimation(flag,"#screen_item_three");
   });
+
 });
 
 function setScreenOneAnimation(flag,view){
@@ -38,16 +39,17 @@ function setScreenTwoAnimation(flag,view){
     $("#screen_item_two_phone").addClass("item_two_phone_done");
 
     $(view).remove("init");
-    $(view).addadd("done");
+    $(view).addClass("done");
   }
 }
 
 function setScreenThreeAnimation(flag,view){
   if(!flag){
-    $("#screen_item_two_title").addClass("item_two_title_done");
-    $("#screen_item_two_phone").addClass("item_three_");
+    $('#screen_item_three_title').addClass("item_three_title_done");
+    $('#screen_item_three_second_title').addClass("item_three_second_title_done");
+    $('#screen_item_three_phone').addClass("item_three_phone_done");
 
     $(view).remove("init");
-    $(view).addadd("done");
+    $(view).addClass("done");
   }
 }

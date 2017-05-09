@@ -1,26 +1,42 @@
 .screenItemThree{
+    background: #b80f0f;
+    background-size: cover;
+    z-index: 4;
+    height: 800px ;
+    overflow: hidden;
     position: relative;
-    background: url("../img/item_3_bg.png");
-    z-index: 3;
 }
 
-.screenItemThree>dl{
+.screenItemThreeWarp{
+  width: 1200px ;
+  height: auto ;
+  margin: 0 auto ;
+  position: relative;
+}
+
+.screenItemThreeWarp>dl{
     position: absolute;
-    top:96px;
-    left:371px;
+    top:94px;
     text-align: left;
 }
 
-.screenItemThree>dl>dd{
+.screenItemThreeWarp>dl>dd{
     color: var(--defaultColorPrimary);
     font-size: 48px;
 }
-.screenItemThree>dl>dt{
+.screenItemThreeWarp>dl>dt{
     color: var(--defaultColorPrimary);
     font-size: 16px;
     margin-top: 36px;
 }
 
+.screenItemThreeFunctionContent{
+  top: 397px ;
+  width: 304px ;
+  height: 264px ;
+  position: absolute;
+  position: relative;
+}
 .screenItemThreeContent{
     width:140px;
     height:120px;
@@ -28,9 +44,6 @@
     border-radius: 5px;
     position: absolute;
     text-align: center;
-    top:397px;
-    left:371px;
-
 }
 .screenItemThreeContent_num{
     margin-top: 16px;

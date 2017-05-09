@@ -61,6 +61,26 @@
   opacity: 1 ;
 }
 
+.item_three_second_title_init{
+  transform: translateY(100%);
+  opacity: 0 ;
+}
+
+.item_three_second_title_done{
+  transform: translateY(0%);
+  opacity: 1 ;
+}
+
+.item_three_phone_init{
+  transform: translateY(100%);
+  opacity: 0 ;
+}
+
+.item_three_phone_done{
+  transform: translateY(0%);
+  opacity: 1 ; 
+}
+
 .done{
 
 }
