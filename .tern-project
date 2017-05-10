@@ -19,6 +19,11 @@
     },
     "complete_strings": {
       "maxLength": 15
+    },
+    "modules": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
     }
   }
 }
