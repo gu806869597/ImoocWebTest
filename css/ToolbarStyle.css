@@ -41,6 +41,12 @@ header>div>nav>a{
     text-align: center;
 }
 
+header>div>nav>a:hover{
+  transition: all ;
+  transition-duration: 0.3s ;
+  color: var(--highTitleColor);
+}
+
 header>div>div{
     background: #07111b;
     border-radius: 2px;
@@ -57,7 +63,34 @@ header>div>div{
     cursor: pointer;
 }
 
+header>div>div:hover{
+  transition: all ;
+  transition-duration: 0.3s ;
+  color: var(--highTitleColor);
+}
+
 .nav_active{
     color: var(--highTitleColor);
     border-bottom: 2px solid var(--highTitleColor);
+}
+
+.active{
+  animation-name: toolbarDisplay;
+  animation-duration: 1s ;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 99;
+  background: rgba(41,40,40,.5);
+}
+
+@keyframes toolbarDisplay {
+  0%{
+    opacity: 0 ;
+  }
+  100%{
+    opacity: 1 ;
+  }
 }

@@ -15,7 +15,7 @@
     color:var(--highTitleColor);
 }
 .screenItemTwo>dl>dt{
-    font-size:16px;
+    font-size:14px;
     color: var(--textsecondColorPrimary);
     margin-top: 36px;
     line-height: 29px;
@@ -41,7 +41,7 @@
   position:absolute;
   text-decoration: none;
   top: 157px ;
-  left: -179px ;
+  left: -150px ;
 }
 
 .screenItemTwoRightPointetTop{

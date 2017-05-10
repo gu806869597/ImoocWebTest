@@ -1,6 +1,6 @@
 .animation{
   transition-delay:0;
-  transition-duration: 1.3s;
+  transition-duration: 1.1s;
   transition-timing-function:ease-in-out;
 }
 
@@ -78,7 +78,67 @@
 
 .item_three_phone_done{
   transform: translateY(0%);
-  opacity: 1 ; 
+  opacity: 1 ;
+}
+
+.item_three_function_layout_init{
+  opacity: 0 ;
+  transform: scale(0.8,0.8);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0 ;
+}
+
+.item_three_function_layout_done{
+  opacity: 1 ;
+  transform: scale(1.0,1.0);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0 ;
+}
+
+.item_four_item_one{
+  transition:all 1s 0.5s ;
+  opacity: 1 ;
+}
+
+.item_four_item_two{
+  transition: all 1s 1s ;
+  opacity: 1 ;
+}
+
+.item_four_item_three{
+  transition: all 1s 1.5s ;
+  opacity: 1 ;
+}
+
+.item_four_item_four{
+  transition: all 1s 2s ;
+  opacity:  1;
+}
+
+.item_five_phone_init{
+  transform:  translateY(100%);
+  opacity: 0 ;
+}
+
+.item_five_phone_done{
+  transform:  translateY(0%);
+  opacity: 1 ;
+}
+
+.outline_init{
+  transform:  translateX(100%);
+  transition-delay:0;
+  transition-duration: .4s;
+  transition-timing-function:linear;
+}
+
+.outline_done{
+  transform: translateX(0%);
+  transition-delay:0;
+  transition-duration: .4s;
+  transition-timing-function:linear;
 }
 
 .done{

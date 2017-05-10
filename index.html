@@ -17,23 +17,23 @@
     <script src="js/index.js"></script>
 </head>
 <body>
-<header>
+<header id="toolbar">
     <div>
-        <a href="index.html">慕课手机</a>
-        <nav>
-            <a href="#" class="nav_active">
+        <a href="index.html" id="toolbar_title">慕课手机</a>
+        <nav id="toolbar_titles">
+            <a href="javascript:;" id="toolbar_title_one" class="nav_active">
                 外观
             </a>
-            <a href="#">
+            <a href="javascript:;" id="toolbar_title_two">
                 配置
             </a>
-            <a href="#">
+            <a href="javascript:;" id="toolbar_title_three">
                 型号
             </a>
-            <a href="#">
+            <a href="javascript:;" id="toolbar_title_four">
                 说明
             </a>
-            <a href="#">
+            <a href="javascript:;" id="toolbar_title_five">
                 其他产品
             </a>
         </nav>
@@ -88,7 +88,7 @@
           </dt>
       </dl>
 
-      <div class="screenItemThreeFunctionContent">
+      <div class="screenItemThreeFunctionContent item_three_function_layout_init" id="screen_item_three_function">
         <div class="screenItemThreeContent">
             <dl>
                 <dd class="screenItemThreeContent_num">
@@ -134,44 +134,45 @@
         </div>
       </div>
       <div class="screenItemThreeImgLayout animation item_three_phone_init " id="screen_item_three_phone"></div>
+
     </div>
 </section>
 
 <!-- 第四屏  -->
 <section class="screenItems screenItemFour" id="screen_item_four">
     <dl>
-        <dd>
+        <dd class="animation item_three_title_init " id="screen_item_four_title">
             丰富的手机型号
         </dd>
-        <dt>
+        <dt class="animation item_three_second_title_init" id="screen_item_four_second_title">
             找到适合你的手机
         </dt>
     </dl>
 
     <div>
         <ul>
-            <li>
+            <li class="screenItemFourContent" id="screen_item_four_one">
                 <img src="img/phone_1.png" class="defaultPhoneItem">
                 <dl>
                     <dd>慕课红</dd>
                     <dt>32G/64G/128G</dt>
                 </dl>
             </li>
-            <li>
+            <li class="screenItemFourContent" id="screen_item_four_two">
                 <img src="img/phone_2.png" class="defaultPhoneItem">
                 <dl>
                     <dd>土豪金</dd>
                     <dt>32G/64G/128G</dt>
                 </dl>
             </li>
-            <li>
+            <li class="screenItemFourContent" id="screen_item_four_three">
                 <img src="img/phone_3.png" class="defaultPhoneItem">
                 <dl>
                     <dd>太空灰</dd>
                     <dt>32G/64G/128G</dt>
                 </dl>
             </li>
-            <li>
+            <li class="screenItemFourContent" id="screen_item_four_four">
                 <img src="img/phone_4.png" class="defaultPhoneItem">
                 <dl>
                     <dd>绅士黑</dd>
@@ -185,13 +186,13 @@
 <!-- 第五屏  -->
 <section class="screenItems screenItemFive" id="screen_item_five">
     <dl>
-        <dd>学习、游戏、拍照，有这一部就够了</dd>
-        <dt>看视频、拍摄高清视频与照片、视频聊天、通话相结合，一机多功能，让您的生活更加丰富多彩。</dt>
+        <dd class="animation item_three_title_init " id="screen_item_five_title">学习、游戏、拍照，有这一部就够了</dd>
+        <dt class="animation item_three_second_title_init" id="screen_item_five_second_title">看视频、拍摄高清视频与照片、视频聊天、通话相结合，一机多功能，让您的生活更加丰富多彩。</dt>
     </dl>
 
-    <div class="screenItemFiveLeftImg"></div>
-    <div class="screenItemFiveRightImg"></div>
-    <div class="screenItemFiveCenterImg"></div>
+    <div class="screenItemFiveLeftImg animation item_five_phone_init" id="screen_item_five_left"></div>
+    <div class="screenItemFiveRightImg animation item_five_phone_init" id="screen_item_five_right"></div>
+    <div class="screenItemFiveCenterImg animation item_five_phone_init" id="screen_item_five_center"></div>
 
     </div>
 </section>
@@ -207,6 +208,13 @@
 <footer>
     <a href="#">本网站注册于2017年5月7日  00:19:24</a>
 </footer>
-</script>
+
+<div class="outline outline_init" id="outline">
+  <a href="javascript:;" class="outline__item" id="outline_item_one">首页</a>
+  <a href="javascript:;" class="outline__item" id="outline_item_two">外观</a>
+  <a href="javascript:;" class="outline__item" id="outline_item_three">配置</a>
+  <a href="javascript:;" class="outline__item" id="outline_item_four">型号</a>
+  <a href="javascript:;" class="outline__item" id="outline_item_five">说明</a>
+</div>
 </body>
 </html>
